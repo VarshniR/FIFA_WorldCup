@@ -26,7 +26,7 @@ After carefully cleaning and wrangling the data in Excel, I imported the data in
 
 ⚽️ What's the average number of goals scored per World Cup?
 
-⚽️ A comparison between the total number of countries that qualified for the World Cup in 1930, compared to 2014.
+⚽️ How many countries qualified for the World Cup in 1930 compared to 2014?
 
 ⚽️ Does history show more home-team wins or away-team wins?
 
