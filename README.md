@@ -1,4 +1,4 @@
-# FIFA_WorldCup ⚽️
+# FIFA WorldCup 🏆 ⚽️ 🏆
 
 ##### I am a huge soccer fan, and very excited about the upcoming World Cup games. 
 I have always enjoyed watching soccer games, and thought with the upcoming FIFA World Cup this would be the perfect time to look into data from previous World Cups. 
