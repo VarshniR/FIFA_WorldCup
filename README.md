@@ -28,7 +28,8 @@ After carefully cleaning and wrangling the data in Excel, I imported the data in
 
 ⚽️ A comparison between the total number of countries that qualified for the World Cup in 1930, compared to 2014.
 
-⚽️ Even when it is the World Cup there's always a "home-team" and an "away-team". There's always talk about how the home-team usually plays a better game, so I thought it was interesting to see the amount of games that were won, lost or a draw by home-team vs away-team.
+⚽️ Does history show more home-team wins or away-team wins?
+
 
 #### I utilized my SQL knowledge and was able to find answers for all the questions above and many more. 
 Here's some of the queries that I used:
@@ -64,7 +65,7 @@ ORDER BY attendance ASC;
 SELECT ROUND(AVG(goals_scored),2) AS avg_goals
 	 FROM worldcups;
 ```
-5. To analyze the correlation between home-team wins, away-team wins and draws I used the CASE WHEN command in combination with SUM. 
+5. Even when it is the World Cup there's always a "home-team" and an "away-team". There's always talk about how the home-team usually plays a better game, so I thought it was interesting to see the amount of games that were won, lost or a draw by home-team vs away-team. To analyze the correlation between home-team wins, away-team wins and draws I used the CASE WHEN command in combination with SUM. 
 ```
 SELECT 
   SUM(CASE WHEN home_team_goals > away_team_goals THEN 1 ELSE 0 END) AS Total_Home_Team_Wins,
