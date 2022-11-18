@@ -10,7 +10,7 @@ I do think he deserves to win the World Cup, so I hope he does this coming World
 
 I downloaded a FIFA World Cup dataset on Kaggle (https://www.kaggle.com/datasets/abecklas/fifa-world-cup).
 
-The dataset cointains data from every World Cup that has been played between the period 1930 - 2014. 
+The dataset contains data from every World Cup that has been played between the period 1930 - 2014. 
 An important remark regarding the data, due to World War 2 the World Cup games that were planned for 1942 and 1946 were cancelled. 
 
 After carefully cleaning and wrangling the data in Excel, I imported the data into SQL to analyze the data and do some visualizations with Tableau. 
